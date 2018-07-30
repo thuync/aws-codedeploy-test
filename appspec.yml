@@ -5,8 +5,8 @@ os: linux
 #    destination: /projects/chocon/chocon/
 #  - source: scripts
 #    destination: /projects/chocon/scripts/
-#  - source: requirements
-#    destination: /projects/chocon/requirements/
+  - source: requirements
+    destination: /projects/chocon/requirements/
 hooks:
   BeforeInstall:
     - location: scripts/prepare_env.sh
